@@ -1,0 +1,732 @@
+/* ================ text link start ================== */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+/* ---------------- text link end-------------------- */
+/* ================ common part start ================== */
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;  
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1050px;
+    margin: 0% auto;
+}
+
+/* ---------------- common part end-------------------- */
+/* ================ menu bar start ================== */
+#menu_bar{
+    width: 100%;
+    height: 91px;
+    /* background: #E5E5E5; */
+    position: absolute;
+}
+#menu_bar .menu_row{
+    display: flex;
+    justify-content: space-between;
+    line-height: 91px;
+}
+.menu_col{
+    display: flex;
+    gap: 83px;
+}
+.menu_col_one{
+    display: flex;
+    gap: 43px;
+}
+.menu_col .menu_bar_item ul{
+    display: flex;
+    gap: 21px;
+}
+
+.menu_col .menu_project_name h2{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Croissant One', cursive;
+    color: #111;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.menu_col .menu_project_name h2:hover{
+    color: rgb(25, 25, 186);
+}
+.menu_bar_item ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #111;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.menu_bar_item ul li a:hover{
+    color: rgb(9, 249, 25);
+}
+
+.menu_log a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #111;
+    transition: all linear .3s;
+}
+.menu_log a:hover{
+    color: rgb(9, 249, 25);
+}
+.menu_bar_button .menu_button a{
+    width: 150px;
+    height: 60px;
+    background: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: blue;
+    text-align: center;
+    border: 1px solid #fa0808;
+    line-height: 60px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+.menu_bar_button .menu_button a:hover{
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 25px #fff;
+    transform: scale(1.1);
+}
+
+/* ---------------- common part end-------------------- */
+/* ================ banner bar start ================== */
+#banner{
+    background: url('../image/Screenshot\ \(117\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 152px;
+    
+    
+}
+/* .banner_row{
+    display: flex;
+    justify-content: space-between;
+} */
+.banner_img img{
+    width: 500px;
+}
+.banner_heading h1{
+    margin-top: 212px;
+    margin-bottom: 70px;
+    font-size: 52px;
+    font-weight: 700;
+   font-family: 'Croissant One', cursive;
+    color: #fff;
+    text-align: center;
+}
+.banner_button{
+    text-align: center;
+}
+
+.banner_heading p{
+    width: 400px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Croissant One', cursive;
+    color: #fff;
+    text-align: center;
+    margin: 0% auto;
+    margin-bottom: 80px;
+}
+.banner_button a{
+    width: 135px;
+    height: 60px;
+    background: black;
+    border-radius: 10px;
+    border: 1px solid #fa0808;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: blue;
+    
+    text-align: center;
+    line-height: 60px;
+    transition: all linear .3s;
+}
+.banner_button a:hover{
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 0 5px #fff, 0 0 25px #fff;
+    transform: scale(1.1);
+}
+
+/* ---------------- banner part end-------------------- */
+/* ================ Practice bar start ================== */
+
+#practice{
+    padding-top: 112px;
+    padding-bottom: 162px;
+    background: #252B42;
+}
+.practice_heading h2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #23A6F0;
+    margin-bottom: 10px;
+}
+.practice_heading h3{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.practice_heading p{
+    width: 420px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.practice_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+}
+.practice_col{
+    width: 230px;
+    background: #ffff;
+    padding: 35px 33px 35px 40px;
+}
+.practice_row .two {
+    position: relative;
+    top: 50px;
+}
+.practice_row .four {
+    position: relative;
+    top: 50px;
+}
+.two .practice_icon p{
+    background: #B9EAA8;
+}
+.three{
+    background: #23A6F0;
+}
+.three .practice_icon p{
+    background: #fff;
+}
+.three .practice_text h4{
+    color: #fff;
+}
+.three .practice_text p{
+    color: #fff;
+}
+.three .practice_text h4::after{
+    background: #fff;
+}
+.four .practice_icon p{
+    background: #FFDCD1;
+}
+
+.practice_icon p{
+    width: 70px;
+    height: 76px;
+    background: #B2E3FF;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.practice_text h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #252B42;
+    position: relative;
+}
+.practice_text h4::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+    bottom: -20px;
+    left: 0px;
+}
+.practice_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    margin-top: 42px;
+}
+/* ---------------- Practice part end-------------------- */
+/* ================ courses bar start ================== */
+#courses{
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background: #252B42;
+}
+
+.courses_main_row{
+    padding-left: 5px;
+}
+.courses_main_row .prr{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #8c8989;
+    text-align: center;
+    line-height: 50px;
+   font-size: 30px;
+   top: 70%;
+   left: -5%;
+   position: absolute;
+   z-index: 999;
+   transition: all linear .5s;
+   visibility: hidden;
+   opacity: 0;
+} 
+.courses_main_row:hover .prr{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.8s);
+}
+.courses_main_row .nrr{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #8c8989;
+    text-align: center;
+    line-height: 50px;
+   font-size: 30px;
+   top: 70%;
+   right: -5%;
+   position: absolute;
+   z-index: 999;
+   transition: all linear .5s;
+   visibility: hidden;
+   opacity: 0;
+} 
+.courses_main_row:hover .nrr{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+
+}
+.courses_col{
+    padding: 20px 25px 35px 25px;
+    width: 250px;
+    height: 300px;
+    background: url('../image/product-cover-71.png');
+    
+}
+.courses_row .two{
+    background: url('../image/product-cover-72.png');
+}
+.courses_row .three{
+    background: url('../image/product-cover-70.png');
+}
+.courses_row .four{
+    background: url('../image/product-cover-73.png');
+}
+
+.courses_col_button a{
+    width: 52px;
+    height: 24px;
+    background: #E74040;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 192px;
+    transition: all linear .3s;
+}
+.courses_col_button a:hover{
+    background: #ffffff;
+    transform: scale(1.1);
+    color: #111;
+}
+.courses_icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.courses_icon .courses_icon_col a{
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+    background: #FFFFFF;
+    color: #111;
+    text-align: center;
+    line-height: 40px;
+}
+.courses_icon .courses_icon_col a:hover{
+    background: #918f8f;
+    transition: all linear .3s;
+}
+.courses_col_one{
+    width: 250px;
+    background: #fff;
+    padding: 20px 25px 35px 25px;
+}
+.courses_head_rating{
+    display: flex;
+    justify-content: space-between;
+}
+.courses_head_rating .courses_heading_col h2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #23A6F0;
+}
+.courses_rating a{
+    width: 60px;
+    height: 30px;
+    background: #252B42;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.courses_text h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #252B42;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.courses_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    margin-bottom: 10px;
+}
+.courses_sale a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    margin-bottom: 10px;
+    
+}
+.courses_sale_one a span{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+}
+.courses_sale_one a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #40BB15;
+    margin-bottom: 15px;
+}
+.courses_icon_list{
+    display: flex;
+    gap: 25px;
+}
+.courses_icon_list .courses_icon_col a {
+    display: flex;
+    gap: 5px;
+}
+.courses_col_one .courses_button a{
+    width: 145px;
+    height: 44px;
+    background: transparent;
+    border: 1px solid #23A6F0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    border-radius: 37px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 10px;
+    transition: all linear .3s;
+}
+.courses_col_one .courses_button a:hover{
+    background: #4634ab;
+    color: white;
+}
+/* ---------------- courses part end-------------------- */
+/* ================ packages bar start ================== */
+#packages{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background: #252B42;
+}
+
+.packages_col img{
+    width: 508px;
+}
+.packages_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 156px;
+}
+.packages_col_two{
+    margin-top: 170px;
+    margin-bottom: 128px;
+
+}
+
+
+.packages_col_two .packages_heading h2{
+    width: 312px;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-bottom: 35px;
+    position: relative;
+}
+.packages_col_two h2::after{
+    content: '';
+    position: absolute;
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+    top: -25px;
+    left: 0%;
+}
+.packages_col_two .packages_heading p{
+    width: 345px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin: 0% auto;
+    margin-bottom: 35px;
+    
+}
+.packages_icon a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #23A6F0; 
+}
+/* ---------------- packages part end-------------------- */
+/* ================ experts bar start ================== */
+#experts{
+    padding-top: 194px;
+    padding-bottom: 160px;
+    background: #252B42;
+}
+.experts_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+}
+.experts_col{
+    width: 508px;
+    background: #fff;
+    padding: 25px 80px 30px 80px;
+}
+.experts_col .experts_img {
+    text-align: center;
+    margin: 0% auto;
+    margin-bottom: 30px;
+}
+.experts_col .experts_img img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    
+}
+.experts_head p{
+    width: 341px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.experts_rating{
+    text-align: center;
+
+}
+.experts_head h4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.experts_head h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    text-align: center;
+}
+/* ---------------- experts part end-------------------- */
+/* ================ News bar start ================== */
+#news{
+    padding: 160px 160px;
+    background: #252B42;
+    /* background: #fff; */
+}
+.news_heading h2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #23A6F0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.news_heading h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.news_heading h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.news_heading p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 100px;
+}
+
+#news .search_box{
+    margin: 0% auto;
+    padding: 10px;
+    width: 688px;
+    border: 3px solid #40BB15;
+    border-radius: 30px;
+    display: flex;
+
+}
+input{
+    width: 0%;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding: 0px 5px;
+    transition: 0.8s;
+}
+.search_box:hover input{
+    width: 100%;
+
+}
+.search_box a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #40BB15;
+    padding: 0px 5px;
+}
+
+/* ---------------- News part end-------------------- */
+/* ================ last part start ================== */
+#touch{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #252B42;
+}
+.touch_row{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+   
+}
+.touch_heading h2{
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.touch_heading p{
+    width: 209px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+}
+.contact_icon {
+    display: flex;
+    gap: 20px;
+}
+.contact_icon .fit_icon a{
+    font-size: 18px;
+    color: #23A6F0;
+}
+.touch_col h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* ---------------- last part  end-------------------- */
+/* ================ menu bar start ================== */
+#last{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #fff;
+}
+.last_heading h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #111;
+    text-align: center;
+}
